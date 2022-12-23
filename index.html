@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="five" href="#">
+            <img src="./img/ten.jpg" alt="" class="d-inline-block align-text-top">
+            FUntastic-v 
+            <img src="./img/seven (2).jpeg" alt="" class="d-inline-block align-text-top">
+          </div>
+        </div>
+    </nav>
+
+    <div class="celeb">
+        <h3 class="wish">
+            We wish a very Happy Birthday to you Arish 💥🤩🎊🎈
+        </h3>
+        <img src="https://cutewallpaper.org/cdn-cgi/mirage/dd19f2d06ebc24f541f142b37b4289ffa7de722a7607e39984c5c6dd4ce8defd/1280/24/transparent-fireworks-gif/free-af2ba-animated-df1bf-fireworks-502b3-gif.gif" alt="">
+    </div>
+
+    <div class="imoji d-flex justify-content-around bg-dark">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/1024/52707-party-popper-icon.png" alt="">
+    </div>
+
+    <div class="text">
+        Hey dude...!
+        We had a lot of great moments with you ...! In this memorable day we wish all your dream true and be succes
+    </div>
+
+    <div class="imoji d-flex justify-content-around bg-dark">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/4549/4549811.png" alt="">
+    </div>
+
+    <div id="carouselExampleDark" class="cards carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/best.jpeg" class="d-block w-100" alt="photo1">
+            <div class="carousel-caption d-md-block">
+              <h5>!! <b>Forever Together</b> !!</h5>
+              <p>The AMEER Member of Team 😁 Always smiles in every joke 😅♾</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/pic.jpeg" class="d-block w-100" alt="photo2">
+            <div class="carousel-caption d-md-block">
+              <h5>Iconic <b>SmartNess</b> 😎🤟</h5>
+              <p>Dost hai apna SMART itna hi.. Sab pighal jaye wo jaye kahin bhi 😏</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/nine.jpeg" class="d-block w-100" alt="photo2">
+            <div class="carousel-caption d-md-block">
+              <h5>Those <b>chillouts</b> 🤙</h5>
+              <p>Enjoy to sab karte hai.. Lekin plan banane wala wo hai jiska aaj <b>janamdin</b> hai 🤩</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/eleven.jpg" class="d-block w-100" alt="photo3">
+            <div class="carousel-caption d-md-block">
+              <h5>!! Stay <b>Together</b> Stay <b>Strong</b> !!</h5>
+              <p>You are a <b>True Friend</b> for us who supports always in every way..💞</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/one.jpeg" class="d-block w-100" alt="photo4">
+            <div class="carousel-caption d-md-block">
+              <h5><b>Movie Lover | Gamer</b></h5>
+              <p><b>Jeevan</b> me aise hi maje karte raho ora age badho 😊</p>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+
+    <div class="fun">
+        <h3>
+            Sorry brother for this Part... But this one is incomplete without this fun part..😁😁
+        </h3>
+        <div class="images d-flex justify-content-around">
+            <img src="./img/fun1.jpeg" alt="">
+            <img src="./img/fun2.jpeg" alt="">
+            <img src="./img/fun3.jpeg" alt="">
+            <img src="./img/fun4.jpeg" alt="">
+            <img src="./img/fun6.jpeg" alt="">
+            <img src="./img/fun7.jpeg" alt="">
+        </div>
+    </div>
+
+    <div class="msg">
+        <h3 class="title">Send the Birthday boy a best wish from you...🎉🎆</h3>
+        <form action="https://formspree.io/f/mknawpnq" method="post">
+            <input type="text" name="name" required placeholder="Tell Your Name...">
+            <input type="email" name="email" required placeholder="Who is Arish, in one word..." name="" id="">
+            <textarea name="message" id="" required placeholder="Leave your message"></textarea>
+            <button type="submit"> Send ! </button>
+        </form>
+    </div>
+
+    
+
+
+    <script src="script.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

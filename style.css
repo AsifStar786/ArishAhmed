@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+nav img{
+    height: 8vh;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+nav .five{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    cursor: inherit;
+    font-family: 'Rubik Vinyl', cursive;
+}
+nav .five:hover{
+    color: white;
+}
+
+.celeb img{
+    width: 100%;
+    /* margin-bottom: -1rem; */
+}
+.celeb .wish{
+    position: absolute;
+    font-family: 'Rubik Gemstones', cursive;
+    top: 22%;
+    left: 10%;
+    right: 10%;
+    color: white;
+    filter: drop-shadow(2px 2px 4px yellow);
+    text-align: center;
+}
+
+.imoji img{
+    height: .8rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.imoji img:hover{
+    height: 3.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.text{
+    padding: 20px 5px;
+    background-color: rgb(99, 109, 146);
+    font-size: 17px;
+    text-align: center;
+    /* margin-top: -2rem; */
+    /* color: white; */
+    font-family: 'Pacifico', cursive;
+}
+.carousel-caption h5, p{
+    color: aliceblue;
+    filter: drop-shadow(0px 0px 4px yellow);
+}
+.carousel-item img{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+.msg form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.msg h3{
+    margin: auto 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: midnightblue;
+}
+
+.fun img{
+    height: 3rem;
+    border-radius: 10%;
+    transition: 0.5s ease-in-out;
+}
+
+.fun img:hover{
+    height: 10rem;
+    transform: rotate(45deg);
+}
+.fun{
+    padding: 3%;
+    font-family: 'Rubik 80s Fade', cursive;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.msg{
+    padding-top: 1rem;
+    background-color: #473a78;
+}
+
+form input, textarea{
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 12px;
+    width: 85%;
+    border: 1px solid midnightblue !important;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid var(--deep);
+}
+
+form textarea{
+    height: 18vh;
+    resize: none;
+}
+
+form button{
+    margin: 1rem auto;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #827dd3;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+
+form button:hover{
+    background-color: #473a78;
+}
